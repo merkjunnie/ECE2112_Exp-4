@@ -2,7 +2,7 @@
 ## 📊&nbsp;&nbsp;Overview
 Harness the power of Data Wrangling and Data Visualization to transform raw, messy data into insightful, meaningful visual stories. Whether you're dealing with chaotic datasets or presenting complex patterns, mastering these techniques is essential to understanding and communicating data effectively. In this assignment, we’ll clean, structure, and visualize data from board2.xlsx to uncover hidden insights. Ready to dive into the art and science of data?
 ## 📊&nbsp;&nbsp;Making Data Behave (So You Don't Have To 😅)
-Ever wonder how a messy spreadsheet gets its act together? That's Data Wrangling—it's like taming a wild spreadsheet into an obedient data source. With data cleaned and formatted, Data Visualization comes in, turning numbers into pictures that even your mother would understand. We're talking less about fixing typos and more about discovering trends and insights. Because let’s face it, a graph can explain more than a thousand rows of data.
+Data wrangling is the process of transforming raw data into a clean and useful format, which is essential for accurate analysis. It’s like trying to organize your messy room – once everything’s in its place, things become a lot clearer. Once wrangled, data visualization takes the stage, helping you uncover insights through charts and graphs, bringing your findings to life. In this assignment, we combine these two skills to turn raw data into valuable, digestible insights using Python’s Pandas and visualization libraries.
 ## 📊&nbsp;&nbsp;The Basics
 - Data Wrangling is the process of cleaning and organizing raw data into a structured format.
 - It involves dealing with missing values, correcting data types, and reshaping the dataset for analysis.
