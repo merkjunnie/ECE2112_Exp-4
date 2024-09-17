@@ -24,6 +24,20 @@ Access the data by inputting the following command:
 pd.read_excel('board2.xlsx')
 ```
 _This is will allow you to access the data that will be used as you perform data manipulation tasks_
+
+Sneak peek of the dataset:
+| Name | Gender | Track          | Hometown | Math | Electronics | GEAS | Communication |
+|------|--------|----------------|----------|------|-------------|------|---------------|
+|      | Male   | Instrumentation | Luzon    | 58   | 89          | 75   | 78            |
+| S1   | Female | Communication  | Mindanao | 52   | 75          | 90   | 52            |
+| S2   | Female | Instrumentation| Mindanao | 83   | 74          | 77   | 57            |
+| S3   | Male   | Instrumentation| Visayas  | 65   | 58          | 91   | 68            |
+| S4   | Male   | Communication  | Luzon    | 59   | 86          | 43   | 88            |
+| ...  | ...  | ...  | ...    | ...  | ...       | ... | ...      |
+| S28   | Male | Communication| Visayas | 85   | 53          | 80   | 53            |
+| S29  | Male   | Instrumentation | Mindanao | 73   | 48         | 71   | 62            |
+| S30   | Male   | Instrumentation | Luzon    | 78   | 81         | 57  | 56            |
+
 ### Running the Scripts
 Here’s a quick look at how to run the scripts and visualize the results:
 ```
