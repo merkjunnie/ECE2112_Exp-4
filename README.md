@@ -4,10 +4,10 @@ Harness the power of Data Wrangling and Data Visualization to transform raw, mes
 ## 📊&nbsp;&nbsp;Making Data Behave (So You Don't Have To 😅)
 Data wrangling is the process of transforming raw data into a clean and useful format, which is essential for accurate analysis. It’s like trying to organize your messy room – once everything’s in its place, things become a lot clearer. Once wrangled, data visualization takes the stage, helping you uncover insights through charts and graphs, bringing your findings to life. In this assignment, we combine these two skills to turn raw data into valuable, digestible insights using Python’s Pandas and visualization libraries.
 ## 📊&nbsp;&nbsp;The Basics
-- Data Wrangling is the process of cleaning and organizing raw data into a structured format.
+- Data Wrangling is the **process of cleaning and organizing raw data** into a structured format.
 - It involves dealing with missing values, correcting data types, and reshaping the dataset for analysis.
 - Data Visualization uses visual tools like graphs and charts to represent data in a comprehensible way.
-- Common tools include Pandas for wrangling and Matplotlib or Seaborn for visualization.
+- Common tools include Pandas for wrangling and **Matplotlib** or **Seaborn** for visualization.
 - The goal is to reveal patterns, trends, or correlations hidden in raw data.
 ## 📊&nbsp;&nbsp;Setup
 1. Install Jupyter Notebook through [Anaconda Navigator](https://www.anaconda.com/download) or directly from their [website](https://jupyter.org)
