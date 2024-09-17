@@ -16,7 +16,7 @@ Data wrangling is the process of transforming raw data into a clean and useful f
 jupyter notebook
 ```
 4. Download `board2.xlsx`.
-5. Open `Instru = [“Name”, “GEAS”, “Electronics >70”].ipynb`, `Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”].ipynb`, and `Visualization` within the same file directory as `board2.xlsx`.
+5. Open `Instru = [“Name”, “GEAS”, “Electronics >70”].ipynb`, `Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”].ipynb`, and `Visualization.ipynb` within the same file directory as `board2.xlsx`.
 6. Execute the codes
 ## 📊&nbsp;&nbsp;Usage
 Access the data by inputting the following command:
