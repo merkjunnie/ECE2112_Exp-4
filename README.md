@@ -1,12 +1,14 @@
 # **Data Wrangling and Data Visualization** 
 ## 📊&nbsp;&nbsp;Overview
-
-
-## 📊&nbsp;&nbsp;It's Excel, but Make It... Pythonic!?
-
-
+Harness the power of Data Wrangling and Data Visualization to transform raw, messy data into insightful, meaningful visual stories. Whether you're dealing with chaotic datasets or presenting complex patterns, mastering these techniques is essential to understanding and communicating data effectively. In this assignment, we’ll clean, structure, and visualize data from board2.xlsx to uncover hidden insights. Ready to dive into the art and science of data?
+## 📊&nbsp;&nbsp;Making Data Behave (So You Don't Have To 😅)
+Ever wonder how a messy spreadsheet gets its act together? That's Data Wrangling—it's like taming a wild spreadsheet into an obedient data source. With data cleaned and formatted, Data Visualization comes in, turning numbers into pictures that even your mother would understand. We're talking less about fixing typos and more about discovering trends and insights. Because let’s face it, a graph can explain more than a thousand rows of data.
 ## 📊&nbsp;&nbsp;The Basics
-
+- Data Wrangling is the process of cleaning and organizing raw data into a structured format.
+- It involves dealing with missing values, correcting data types, and reshaping the dataset for analysis.
+- Data Visualization uses visual tools like graphs and charts to represent data in a comprehensible way.
+- Common tools include Pandas for wrangling and Matplotlib or Seaborn for visualization.
+- The goal is to reveal patterns, trends, or correlations hidden in raw data.
 ## 📊&nbsp;&nbsp;Setup
 1. Install Jupyter Notebook through [Anaconda Navigator](https://www.anaconda.com/download) or directly from their [website](https://jupyter.org)
 2. Run the following command in the terminal to start Jupyter Notebook:
@@ -23,9 +25,26 @@ pd.read_excel('board2.xlsx')
 ```
 _This is will allow you to access the data that will be used as you perform data manipulation tasks_
 ### Running the Scripts
+Here’s a quick look at how to run the scripts and visualize the results:
+```
+import pandas as pd
+data = pd.read_excel('board2.xlsx')
 
+# _Perform some data wrangling_
+filtered_data = data[data['Electronics'] > 70]
+
+# _Visualizing it by using bar graph_
+import matplotlib.pyplot as plt
+plt.hist(filtered_data['Electronics'])
+plt.show()
+```
+![Screenshot of a bar graph by Matplotlib for Electronics](https://i.pinimg.com/originals/c9/fa/d2/c9fad29d4129997bab474948f7d858b0.png)
 ## 📊&nbsp;&nbsp;Takeaways
-
+- Start small: Begin by understanding the basics of Python syntax before diving into libraries like Pandas or Matplotlib.
+- Practice **data wrangling**: Learn to clean and manipulate data using **PANDAS** (click [here](https://github.com/merkjunnie/ECE2112_Exp-3) to see my outputs) —it's the foundation of many data projects.
+- Visualize everything: Use simple visualizations in **Matplotlib** or **Seaborn** to see trends early. It helps to understand your data better.
+- Explore documentation: Don't hesitate to check [Stack Overflow](https://stackoverflow.com/) or the [Github](https://github.com/explore) community for help—there's always someone who faced the same problem!
+- Experiment and learn: Python coding is all about trial and error. Break your code, fix it, and understand what works best—learning comes from doing!
 ## 📊&nbsp;&nbsp;Contact
 For any questions or feedback, please reach out to:<br>
 - Email: johnmarkaparicio.eng@ust.edu.ph <br>
